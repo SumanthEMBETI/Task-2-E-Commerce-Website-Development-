@@ -1,0 +1,219 @@
+<!DOCTYPE html><html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SUMANT'S - Trendy Attire</title>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    * {
+      margin: 0; padding: 0; box-sizing: border-box;
+      font-family: 'Montserrat', sans-serif;
+    }
+    body { background-color: #fff; color: #333; }
+    header {
+      padding: 20px 10%; display: flex; justify-content: space-between; align-items: center;
+      background-color: #f8f8f8; box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .logo { font-weight: bold; font-size: 1.8rem; }
+    nav a {
+      margin: 0 15px; text-decoration: none; color: #333; font-weight: 500;
+    }
+    .hero {
+      display: flex; justify-content: space-between; align-items: center; padding: 60px 10%; background-color: #f0f0f0;
+    }
+    .hero-text h1 { font-size: 3rem; margin-bottom: 10px; }
+    .hero-text p { font-size: 1.2rem; margin-bottom: 20px; }
+    .hero-text button {
+      padding: 10px 20px; background-color: #333; color: #fff; border: none; border-radius: 5px; cursor: pointer;
+    }
+    .hero-imgs { width: 800PX; gap: 20px; }
+    .hero-imgs img { width: 300px;height: 200px; border-radius: 20px; }
+    .best-sellers {
+      padding: 50px 10%;
+    }
+    .best-sellers h2 { font-size: 4rem; margin-bottom: 30px; }
+    .products { display: flex; flex-wrap: wrap; gap: 50px; }
+    .product {
+      border: 3px solid #d1cdcd; padding: 20px; width: 250px; border-radius: 15px; text-align: center ; height: 380px;cursor:pointer;
+    }
+    .product:hover {
+      box-shadow: 4px 4px 15px black;
+      background-color: rgb(226, 223, 223);
+      transition: 0.50s;
+    transform: translateY(+5px);}
+
+    
+    .product img { width: 100%; border-radius: 10px;height: 280px;object-fit: cover;margin-bottom: 10px; }
+    .product-title { margin: 10px 0; font-weight: bold; }
+    .product-price { color: #555; }
+    footer {
+      padding: 40px 10%; background: #333; color: #fff; display: flex; justify-content: space-between; flex-wrap: wrap;
+    }
+    .footer-left h3 { font-size: 1.5rem; margin-bottom: 10px; }
+    .footer-links a {
+      color: #ddd; display: block; margin: 5px 0; text-decoration: none;
+    }
+    .footer-contact p, .footer-contact a { color: #ccc; font-size: 0.9rem; }
+    .footer-bottom { text-align: center; width: 100%; margin-top: 30px; color: #aaa; font-size: 0.8rem; }
+    .mar{
+      height: 200px;
+    }
+    .wel{
+      background-color: rgb(219, 200, 157);
+      height: 25px;
+      text-shadow: #aaa;
+      border-radius: 30px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="logo">Sumant's</div>
+    <nav>
+      <a href="#">Home</a>
+      <a href="#">Welcome</a>
+      <a href="#">Shop</a>
+      <a href="#">More</a>
+      <a href="#">🛒</a>
+    </nav>
+  </header>  <section class="hero">
+    <div class="hero-text">
+      <h1>Trendy Attire</h1>
+      <p>Explore our collection of stylish clothing today!</p>
+      <button>Shop Now</button>
+    </div>
+    <div class="hero-imgs">
+      <marquee class="mar" behavior="scroll" direction="left" scrollamount="20" scrolldelay="20">
+  <img src="img.jpg" width="120" height="100" alt="Natural" />
+</marquee>
+    </div>
+  </section>  <section class="best-sellers">
+    <marquee class="wel" behavior="scroll" direction="right" scrollamount="15">
+ <b>Sumant's..🤍</b>
+</marquee>
+    <h2>Trends</h2>
+    <div class="products">
+      <div class="product">
+        <img src="chin.jpg" alt="Ceramic Vase">
+        <div class="product-title">Ceramic Flower Vase</div>
+        <div class="product-price">₹270.00</div>
+      </div>
+      <div class="product">
+        <img src="two (2).jpeg" alt="Tote Bag">
+        <div class="product-title">Minimalist Tote Bag</div>
+        <div class="product-price">₹200.00</div>
+      </div>
+      <div class="product">
+        <img src="three.jpeg" alt="Eye Serum">
+        <div class="product-title">Hydrating Eye Serum</div>
+        <div class="product-price">₹506.00</div>
+      </div>
+      <div class="product">
+        <img src="four.jpeg" alt="Sweater">
+        <div class="product-title">Knitted Golf Sweater</div>
+        <div class="product-price">₹275.00</div>
+      </div>
+     <div class="product">
+        <img src="five.jpeg" alt="Sweater">
+        <div class="product-title">Knitted Golf Sweater</div>
+        <div class="product-price">₹275.00</div>
+      </div>
+<div class="product">
+        <img src="six.jpeg" alt="Tote Bag">
+        <div class="product-title">Minimalist Tote Bag</div>
+        <div class="product-price">₹200.00</div>
+      </div>
+<div class="product">
+        <img src="seven.jpeg" alt="Tote Bag">
+        <div class="product-title">Minimalist Tote Bag</div>
+        <div class="product-price">₹200.00</div>
+      </div>
+<div class="product">
+        <img src="eight.jpeg" alt="Tote Bag">
+        <div class="product-title">Minimalist Tote Bag</div>
+        <div class="product-price">₹200.00</div>
+      </div>
+<div class="product">
+        <img src="nine.jpeg" alt="Tote Bag">
+        <div class="product-title">Minimalist Tote Bag</div>
+        <div class="product-price">₹200.00</div>
+      </div>
+<div class="product">
+        <img src="ten.jpeg" alt="Tote Bag">
+        <div class="product-title">Minimalist Tote Bag</div>
+        <div class="product-price">₹200.00</div>
+      </div>
+    
+    <div class="product">
+        <img src="ele.jpeg" alt="Tote Bag">
+        <div class="product-title">Minimalist Tote Bag</div>
+        <div class="product-price">₹200.00</div>
+      </div>
+      <div class="product">
+        <img src="twelve.jpeg" alt="Tote Bag">
+        <div class="product-title">Minimalist Tote Bag</div>
+        <div class="product-price">₹200.00</div>
+      </div>
+      <div class="product">
+        <img src="thir.jpeg" alt="Tote Bag">
+        <div class="product-title">Minimalist Tote Bag</div>
+        <div class="product-price">₹200.00</div>
+      </div>
+      <div class="product">
+        <img src="for.jpeg" alt="Tote Bag">
+        <div class="product-title">Minimalist Tote Bag</div>
+        <div class="product-price">₹200.00</div>
+      </div>
+      <div class="product">
+        <img src="fiv.jpeg" alt="Tote Bag">
+        <div class="product-title">Minimalist Tote Bag</div>
+        <div class="product-price">₹200.00</div>
+      </div>
+      <div class="product">
+        <img src="sixteen.jpeg" alt="Tote Bag">
+        <div class="product-title">Minimalist Tote Bag</div>
+        <div class="product-price">₹200.00</div>
+      </div>
+      <div class="product">
+        <img src="seventeen.jpeg" alt="Tote Bag">
+        <div class="product-title">Minimalist Tote Bag</div>
+        <div class="product-price">₹200.00</div>
+      </div>
+      <div class="product">
+        <img src="eighteen.jpeg" alt="Tote Bag">
+        <div class="product-title">Minimalist Tote Bag</div>
+        <div class="product-price">₹200.00</div>
+      </div>
+      <div class="product">
+        <img src="nineteen.jpeg" alt="Tote Bag">
+        <div class="product-title">Minimalist Tote Bag</div>
+        <div class="product-price">₹200.00</div>
+      </div>
+      <div class="product">
+        <img src="las.jpeg" alt="Tote Bag">
+        <div class="product-title">Minimalist Tote Bag</div>
+        <div class="product-price">₹200.00</div>
+      </div>
+    </div>
+  </section>  <footer>
+    <div class="footer-left">
+      <h3>Thank you for shopping with sumant's!</h3>
+    </div>
+    <div class="footer-links">
+      <a href="#">Privacy Policy</a>
+      <a href="#">Accessibility</a>
+      <a href="#">Shipping Policy</a>
+      <a href="#">Terms & Conditions</a>
+      <a href="#">Refund Policy</a>
+    </div>
+    <div class="footer-contact">
+      <p>madanapalle,<br>jameya masjid,angallu,517325</p>
+      <p>Email:sumanthembeti2003@gmail.com</p>
+      <p>Phone: 8977409255</p>
+    </div>
+    <div class="footer-bottom">
+      © 2025 by sumant's. Powered
+    </div>
+  </footer>
+</body>
+</html>
