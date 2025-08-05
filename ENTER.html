@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Welcome</title>
+  <style>
+    .container {
+      display: flex;
+      justify-content: center;
+      padding: 20px; 
+    }
+
+    .enter {
+      background-color: #007bff;
+      text-align: center;
+      width: 150px;
+      color: white;
+      padding: 8px 16px;
+      border: none;
+      border-radius: 6px;
+      cursor: pointer;
+      font-size: 16px;
+      transition: transform 0.2s, box-shadow 0.3s;
+    }
+
+    .enter:hover {
+      background-color: #08090a;
+      transform: translateY(-5px);
+      box-shadow: 0 8px 20px rgba(75, 72, 213, 0.15);
+    }
+  </style>
+</head>
+<body>
+  <h1 class="page-title" style="text-align: center; padding: 40px; font-size: 50px;">Welcome</h1>
+  <br>
+
+  <div class="container">
+    <button class="enter" type="button" onclick="window.location.href='http://localhost/login-page-project/login.html'">Click Here</button>
+  </div>
+</body>
+</html>
